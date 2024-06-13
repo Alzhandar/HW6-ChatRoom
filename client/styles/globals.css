@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.message {
+  @apply shadow-md p-4 mb-4 rounded-lg;
+}
